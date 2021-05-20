@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwinGames", "SwinGames.csproj", "{EC9634CD-ED58-4A9A-89B8-B3E188E38DC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwinGameLibrary", "..\SwinGameLibrary\SwinGameLibrary.csproj", "{D4B056D8-2A66-4854-B9D2-7CF18BAC9619}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC9634CD-ED58-4A9A-89B8-B3E188E38DC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC9634CD-ED58-4A9A-89B8-B3E188E38DC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC9634CD-ED58-4A9A-89B8-B3E188E38DC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC9634CD-ED58-4A9A-89B8-B3E188E38DC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4B056D8-2A66-4854-B9D2-7CF18BAC9619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4B056D8-2A66-4854-B9D2-7CF18BAC9619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4B056D8-2A66-4854-B9D2-7CF18BAC9619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4B056D8-2A66-4854-B9D2-7CF18BAC9619}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3FEA894-AF85-4031-8102-AE8B8B27CEC0}
+	EndGlobalSection
+EndGlobal

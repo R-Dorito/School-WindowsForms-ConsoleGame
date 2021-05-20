@@ -1,0 +1,66 @@
+﻿Item|shovel|a shovel|a lovely shovel
+Command|Add|Player|shovel
+
+Location|Front Porch|The enterace to the house, there are some shoes here
+Item|shoe|a pair of shoes|Eww, these look a bit old, who do they belong to?
+Command|Add|Front Porch|shoe
+
+Location|Hallway|the main hall to the house
+Path|North|porch to hallway|use this to enter the house|Hallway
+Path|South|hallway to porch|use this to exit the house|Front Porch
+Command|Path|porch to hallway|Front Porch
+Command|Path|hallway to porch|Hallway
+
+Location|TV Room|TV room without a TV, a lot of books here though
+Item|book|a book|Smells like an old book, might make you sneeze
+Item|couch|a couch|12 seater couch
+Command|Add|TV Room|book
+Command|Add|TV Room|couch
+Path|West|hallway to tv room|to tv room|TV Room
+Path|East|tv room to hallway|to hallway|Hallway
+Command|Path|hallway to tv room|Hallway
+Command|Path|tv room to hallway|TV Room
+
+Location|Garage|Large garage with nothing but a single covered car
+Item|car|a car|An old red Mazda 3
+Command|Add|Garage|car
+Path|East|hallway to garage|to garage|Garage
+Path|West|garage to hallway|to hallway|Hallway
+Command|Path|hallway to garage|Hallway
+Command|Path|garage to hallway|Garage
+
+Location|Kitchen|a kitchen with a quartz counter top
+Item|apple|an apple|Crispy and Red, I think its fake
+Bag|bag1|a red bag|A bag that is small and a bit useless
+Command|Add|Kitchen|apple
+Command|Add|Kitchen|bag1
+Path|North|hallway to kitchen|to kitchen|Kitchen
+Path|South|kitchen to hallway|to hallway|Hallway
+Command|Path|hallway to kitchen|Hallway
+Command|Path|kitchen to hallway|Kitchen
+
+Location|Garden|Luscious and Green, looks like there is a lot of life here
+Path|North|kitchen to garden|to garden|Garden
+Path|South|garden to kitchen|to kitchen|Kitchen
+Command|Path|kitchen to garden|Kitchen
+Command|Path|garden to kitchen|Garden
+
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
